@@ -1,0 +1,12 @@
+body{
+   
+    place-items:center;
+    display:grid;
+}
+
+.hero-section{
+    width:50%;
+    border:20px solid rgb(221, 142, 39);
+    background-color:rgb(182, 182, 67);
+    padding:100px;
+}

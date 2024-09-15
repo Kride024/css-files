@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   
+    place-items: center;
+    display:grid;
+    background-color:black;
+
+}
+h1{
+    color:#fff;
+}
+img {
+     filter:drop-shadow(0px 10px 10px #fff);   /*"Pixcap" is source we use to get sticker */
+     /* box-shadow:0px 10px 10px 20px #fff; */
+      margin-top:80px; 
+      filter:blur(20 px);
+}

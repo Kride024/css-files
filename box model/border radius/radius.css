@@ -1,0 +1,20 @@
+div{
+    width: 500px;
+    height:500px;
+    background-color:pink ;
+    border:15px solid brown;
+    border-radius:100% 0% 100% 0% / 99% 0% 100% 1% ;
+    background-image: linear-gradient(to right, #061432, #00354e, #115661, #44776e, #7a967d);
+    /* https://mycolor.space/gradient */
+    /* https://Gigradients.com/#DirtyFog */
+/* website for radius: */
+/* https://9elements.github.io/fancy-border-radius/ */
+/* https://1005.io/tools/css-border-radius-generator */
+/* both not working */
+
+
+
+
+
+
+}

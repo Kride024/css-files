@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:300px;
+    height:200px;
+    background-color: aquamarine;
+    color:brown;
+}
+p{
+    color:green;
+    border:2px solid blueviolet;
+    display:block;
+}
+.hey{
+    border:2px solid red;
+    
+    margin:100px;
+  
+    display:inline;
+
+}
+.inline-block-ele{
+    
+    border:2px solid red;
+    padding:10px;
+    margin:100px;
+   
+    display: inline-block;
+}
+/* few changes practiced in console regarding margin and padding
+as in inline padding working that can be changed according to system */

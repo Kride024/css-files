@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   
+    place-items: center;
+    display:grid;
+    background-image:linear-gradient(to right, rgba(84, 158, 183, 0.341),rgba(0, 245, 0, 0.516),rgba(191, 191, 137, 0.856));
+   
+
+}
+.section{
+    width:50%;
+    border:10px ;
+    border:10px solid blue;
+    padding:200px;
+     border-radius:50% ;
+box-shadow: 0 0 60px 20px  red;
+margin-top:90px ;
+}

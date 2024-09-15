@@ -1,0 +1,17 @@
+body{
+    place-items:center;
+    display:grid;
+}
+.hero{
+    width:50%;
+   background-color:#5e9de9;
+/* border: 10px solid #003180; */
+border-top: 15px solid black;
+border-left:15px ridge blue;
+border-bottom:15px solid darkcyan;
+border-right:15px solid plum;
+
+}
+h1{
+    text-align: center;
+}

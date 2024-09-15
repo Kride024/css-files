@@ -1,0 +1,27 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box; 
+}
+body{
+    width:100%;
+height:100vh;
+display:flex;
+align-items: center;
+justify-items: start;/* don't worry about these 4-7 line we will read this in flex!!focus on current topic*/
+
+flex-direction:column;
+}
+#heading{
+    padding: 40px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.section1{
+    width:800px;
+    background-color: #0f2c59;
+    color:#fff;
+    border:20px solid #337ccf;
+    padding:50px;
+}

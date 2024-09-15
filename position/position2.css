@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main-section{
+    width:100%;
+    text-align: center;
+    background-color:#1a2980 ;
+    color:#fff;
+    display:block;/*overall line will be taken in this*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+position:fixed;
+z-index: 1;
+
+}
+#main-heading{
+    font-size:4.2rem;
+    margin:1.25rem 0; /*we put margin here to make distance from naviation by content */
+}
+.full-section{
+    width:100%;
+    height:100vh;
+}
+.full-section a{
+    place-items: center;
+    display:inline-block;
+    background-color: black;
+    color:aliceblue;
+    position:sticky;
+    top:50%;
+    left:30%;
+}

@@ -1,0 +1,24 @@
+.para_2{
+    color:aqua;
+}
+.sec{
+    color:pink;
+}
+.para_1{
+    color:#000;
+
+}
+.sec h1{
+    display:inline-block;
+    position:relative;
+}
+.sec h1::before{
+content:"\f121";
+font-family: "font awesome 6 free"; 
+
+position:absolute;
+top:-30px;
+
+
+}
+/*whilespace:norap; used for write overall para only in one line*/
