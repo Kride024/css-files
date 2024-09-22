@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display:grid;
+    place-items: center;
+}
+.hero-section{
+    margin-top:100px;
+    width:60%;
+}
+h1{
+    font-size: 54px;
+    font-weight: 900;
+    text-align: left;
+    text-decoration-style:double ;
+    text-decoration-thickness: 2px;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    /* property of text */
+    letter-spacing:1px;
+    word-spacing:1px;
+     line-height: 1.6; 
+}
+p{
+    column-count:3;
+    column-rule:3px dotted rgb(237, 138, 102);
+    column-rule-style:solid;
+    column-gap:50px;
+    text-align:justify;
+
+}
