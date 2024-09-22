@@ -13,8 +13,8 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left" font-style="bold">
-https://www.linkedin.com/in/kriti-yadav-22951b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-https://www.geeksforgeeks.org/user/kritiyadacfdw/
+linkdin link: https://www.linkedin.com/in/kriti-yadav-22951b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+GFG link: https://www.geeksforgeeks.org/user/kritiyadacfdw/
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
