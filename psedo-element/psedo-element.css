@@ -1,0 +1,80 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width:500px;
+    height:500px;
+    margin-left: 90px;
+    color:#fff;
+    background-color: #000;
+}
+.heading-main {
+    font-size:30px;
+    font-weight: bolder;
+    word-spacing: 1px;
+    margin-top: 200px;
+    position:relative;
+}
+.heading-main h1::before{
+content: "\f121";
+font-family: "font awesome 6 free";
+position: absolute;
+top:-15px;
+font-size: 14px;
+letter-spacing: 5px;
+color:#c5772a;
+
+}
+
+.heading-main h1::after{ 
+    position :absolute; 
+content:"";
+border:2px solid red;
+right:60px;
+bottom:0;
+    width:50%;
+    
+}
+.para1 p::first-letter{
+    font-size: 48px;
+    font-weight: bold;
+    color:rgb(206, 118, 17);
+}
+.para1 p::first-line{
+    text-decoration: underline;
+}
+   
+.para1 p::selection{
+    background: #56e0d9ba;
+}
+.para1{
+    margin-top: 20px;
+    font-size:20px;
+    word-spacing: 1px;
+}
+img{
+    margin-left: 500px;
+    position:absolute;
+    right:100px;
+    top:200px;
+    filter:drop-shadow(0 0 2px #fff);
+    
+}
+.link1{
+    border:1px solid #fff;
+    padding:10px;
+    display:inline-block;
+     padding: 0px 30px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    margin-top: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration-line: none;
+    color: #fff;
+}
