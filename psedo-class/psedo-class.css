@@ -1,0 +1,33 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    background-color:azure;
+    height: 100vh;
+    width:500px;
+}
+.content-1 ul li:first-child{
+    color:red;
+}
+.content-1 ul p:last-child{
+    color:blue;
+}
+.content-1 ul li:nth-of-type(3){
+    color:yellow;
+}
+.content-1 ul li:first-of-type{
+    color:purple;
+
+}
+.content-1 ul li:last-of-type{
+    color:purple;
+
+}
+.content-1 ul li:nth-child(even){
+    color:orangered;
+}
+/* content-2 now here we will apply those property basically we will use psedo-class in class */
+.p-class:nth-of-type(even){
+    color:green;
+}
