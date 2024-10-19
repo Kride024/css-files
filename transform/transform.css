@@ -21,6 +21,12 @@ body{width:100%;
     transition: all 1s linear ;
 }
 .container img:hover{
-    transform:translateX(300px);
+    /* transform:translateX(300px); */
+    /* translate:200px; */
+    /* scale:0.5; */
+    /* transform:scaleX(0.5); */
+    /* transform:rotate(180deg); */
+    rotate:-20deg;
+    transform-origin:top;
 }
 
