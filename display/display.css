@@ -3,19 +3,24 @@
     padding:0;
     box-sizing:border-box;
 }
+:root{
+--play-color:yellow;
+--mood-color:rgba(243, 198, 114, 0.913);
+--switch-name:rgb(226, 94, 85);
+}
 body{
     width:300px;
     height:200px;
-    background-color: aquamarine;
-    color:brown;
+    background-color: var(--mood-color);
+    color:var(--play-color);
 }
 p{
-    color:green;
+    color:var(--switch-name);
     border:2px solid blueviolet;
     display:block;
 }
 .hey{
-    border:2px solid red;
+    border:2px solid yellow;
     
     margin:100px;
   
@@ -24,7 +29,7 @@ p{
 }
 .inline-block-ele{
     
-    border:2px solid red;
+    border:2px solid yellow;
     padding:10px;
     margin:100px;
    
